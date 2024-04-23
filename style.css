@@ -97,8 +97,7 @@
         position: fixed;
         top: 0;
         width: 100%;
-        bottom: 0;
-        right: -100%;
+        right: 0;
         background-color: rgb(252,231,216);
     }
     .headerbar .account, .headerbar .nav{
@@ -134,8 +133,6 @@
     .headerbar .account ul{
         justify-content: space-between;
     }
-    .headerbar .account ul{
-        justify-content: space-between;
-    }
+    
     
 }
