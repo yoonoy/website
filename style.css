@@ -17,7 +17,6 @@
     display: block;
 }
 
-
 .logo img {
     width: 100px;
 }  
@@ -216,6 +215,63 @@
     width: 120px;
     line-height: 35px;
 }
+.main_slide2{
+    margin: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.foodimg{
+    flex: 0.5;
+}
+.foodimg img{
+    max-width: 400px;
+    width: 45vw;
+}
+.question{
+    flex: 0.5;
+    flex-direction: column;
+    margin-left: 40px;
+    
+}
+.question h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.q-ans{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 0;
+    cursor: pointer;
+}
+.q-ans img{
+    width: 45px;
+}
+.q-ans div:first-child{
+    padding: 10px;
+    border-radius: 50%;
+    height: 65px;
+    text-align: center;
+    background-color: white;
+    margin-right: 20px;
+}
+.q-ans div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+.q-ans div:nth-child(2) p{
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
     
 /* headen when page is not full*/
 @media only screen and (max-width: 768px){
@@ -276,6 +332,25 @@
     }
     .headerbar .account ul{
         justify-content: space-between;
+    }
+    .foodimg{
+        flex: 1;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .foodimg img{
+        width: 70vw;
+    }
+    .question{
+        flex: 1;
+        margin-top: 30px;
+    }
+    .question h2{
+        font-size: 25px;
+    }
+    .q-ans div:nth-child(2) p{
+        font-size: 11px;
+        
     }
 
     
