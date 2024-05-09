@@ -550,11 +550,15 @@
     margin-bottom: 30px; /* Remove default margin */
 
 }
+.home {
+    text-align: center;
+}
 .contact{
-    padding:25px 0 25px 0;
+    padding: 50px 0 50px 0;
+    text-align: center;
 }
 .contact_row{
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
     padding: 0 100px 0 100px;
@@ -565,6 +569,7 @@
     flex-direction: column;
     align-items: center;
     flex: 1;
+    margin-top: 20px;
 }
 .contact_col p h3{
     font-weight: bold;
