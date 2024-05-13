@@ -32,3 +32,10 @@ cross.addEventListener('click',function(){
     headerbar.style.right = '-100%';
 })
 
+function redirectToMenu() {
+    window.location.href = 'drinks.html';
+}
+function redirectToPage() {
+    window.location.href = 'about.html';
+}
+
