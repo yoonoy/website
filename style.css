@@ -625,7 +625,7 @@
     border: 3px solid #dd9b7c;
     border-radius: 20px;
 }
-/* headen when page is not full*/
+
 @media only screen and (max-width: 768px){
     .header .nav, .header .account{
         display: none;
